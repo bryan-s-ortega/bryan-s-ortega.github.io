@@ -547,10 +547,10 @@ footer h3{
 }
 .contact-nav li {
   display: inline;
-  color: #fff;
+  color: #314584;
 }
 .contact-nav a {
-  color: #fff;
+  color: #314584;
   font-size: 1.1rem;
   padding: 20px 20px;
 }
@@ -558,7 +558,7 @@ footer h3{
   color: #00A36C;
 }
 footer h6 {
-  color: #fff;
+  color: #314584;
   font-size: 0.9rem;
   font-weight: 400;
   margin-top: 50px;
