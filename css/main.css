@@ -18,7 +18,8 @@
     8  Blog
     9  Contact
     10 Footer
-    11 Responsive 
+    11 Social
+    12 Responsive 
 -------------------------------------------------------------*/
 
 
@@ -584,8 +585,27 @@ footer h6 {
   color: #00A36C;
   transition: all 0.3s ease;
 }
+
 /*-----------------------------------------------------------
-  11. Responsive
+  11. Social Media
+-------------------------------------------------------------*/
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+/*-----------------------------------------------------------
+  12. Responsive
 -------------------------------------------------------------*/
 @media (max-width: 1700px) {
   .hero-btns {
