@@ -590,8 +590,8 @@ footer h6 {
 }
 
 .socicon {
-  width: 2rem;
-  height: 2rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 
@@ -718,6 +718,17 @@ footer h6 {
 
   .project-container {
     width: 20.875rem;
+  }
+  .socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 5%;
+  bottom: 50%;
+  }
+  .socicon {
+  width: 2rem;
+  height: 2rem;
   }
 }
 
