@@ -363,76 +363,52 @@ p {
 /*-----------------------------------------------------------
  7. Portfolio
 -------------------------------------------------------------*/
-.portfolio-aside img {
-  margin-top: 20px;
-  position: absolute;
-  left: -20px;
+.projects {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
 }
-.work-box {
-  margin-bottom: 30px;
+
+.project-pic {
+  width: 65%;
+  height: 60%;
 }
-.work-box img {
-  width: 370px;
-  height: auto;
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-/* Portfolio Gallery Hover */
-.photobox{
-  display: inline-block;
-}
-.photobox__previewbox{
-  position: relative;
-  overflow: hidden;
-}
-.photobox__preview{
-  display: block;
-  max-width: 100%;
-}
-.photobox__previewbox:before{
-  content: "";
-}
-.photobox_type10 .photobox__previewbox:before{
-  width: 0;
-  height: 0;
-  padding: 25%;
-  background-color: #314584;
-  opacity: 0.8;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
-  will-change: transform;
-  transform: translate(-50%, -50%) scale(0);
-}
-.photobox_type10:hover .photobox__previewbox:before{
-  transform: translate(-50%, -50%) scale(4);
-  transition-duration: var(--photoboxAnimationDuration, .8s);
-}
-.photobox_type10 .photobox__label{
-  width: 95%;
+
+.projects-title {
   text-align: center;
-  opacity: 0;  
-  transition: opacity calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9), transform calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
-  will-change: opacity, transform;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 200%);
-  z-index: 3;
-  color: #fff;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 1.1rem; 
+  margin-bottom: 1rem;
 }
-.photobox_type10:hover .photobox__label{
-  opacity: 1;
-  transform: translate(-50%, -50%);
-  transition-duration: calc(var(--photoboxAnimationDuration, .8s) / 2);
-  transition-delay: calc(var(--photoboxAnimationDuration, .8s) / 4);
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
 }
-.hide {
-  display: none;
-  transition: all 0.3s ease;
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
 /*-----------------------------------------------------------
   8. Blog
