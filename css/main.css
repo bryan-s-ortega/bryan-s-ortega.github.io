@@ -1,13 +1,4 @@
 /*-----------------------------------------------------------
-    Theme Name: Doob | Simple Agency HTML Template
-    Description: Simple Agency HTML Template
-    Author: Graphberry
-    Author URI: https://www.graphberry.com/
-    Version: 1.0
--------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------
     1  General Styles
     2  Typography
     3  Buttons & Links 
@@ -694,7 +685,7 @@ footer h6 {
   .about {
     text-align: center;
   }
-  .projects {
+  .portfolio {
     text-align: center;
   }
   .blog {
