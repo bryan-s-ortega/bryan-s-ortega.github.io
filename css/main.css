@@ -361,11 +361,11 @@ p {
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .skill-header {
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .skills-wrapper img {
