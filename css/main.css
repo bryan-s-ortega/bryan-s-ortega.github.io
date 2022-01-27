@@ -350,7 +350,7 @@ p {
   6. About
 -------------------------------------------------------------*/
 .about {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 /*-----------------------------------------------------------
@@ -361,7 +361,7 @@ p {
   max-width: 68.75rem;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .skill-header {
