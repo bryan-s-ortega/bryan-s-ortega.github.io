@@ -394,10 +394,10 @@ p {
   margin-top: 2rem;
 }
 
-.side3-img img {
+.portfolio-aside img {
+  margin-top: 20px;
   position: absolute;
-  right: -20px;
-  margin-top: 200px;
+  left: -20px;
 }
 
 .project-pic {
