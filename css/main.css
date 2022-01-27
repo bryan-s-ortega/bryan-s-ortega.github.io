@@ -359,7 +359,7 @@ p {
 
 .skills {
   max-width: 68.75rem;
-  margin: auto;
+  margin: 10px;
   text-align: center;
   margin-top: 2.5rem;
 }
