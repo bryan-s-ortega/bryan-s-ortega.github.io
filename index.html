@@ -313,31 +313,34 @@
   <!-- CONTACT SECTION -->
   <section id="contact-us" class="contact">
     <div class="container">
-      <form action="https://formspree.io/f/xyylnggw" method="POST">
-      <div class="row">
+       <div class="row">
         <div class="col-12">
           <h5>CONTACT ME</h5>
           <h2>Get in Touch</h2>
         </div>
       </div>
-      <div class="row">
+      <form id="contactform" action="https://formspree.io/f/xyylnggw" method="POST">
+          <div class="row">
         <div class="col-12 col-lg-6 email">
-          <input placeholder="Your email" type="email" id="bs.ortega01" pattern="@gmail.com" size="30" required>
+          <input type="email" name="_replyto" placeholder="Your email" size="30" id="email" required>
         </div>
         <div class="col-12 col-lg-6 email">
-          <input placeholder="Subject" type="subject" id="subject" size="30" required>
+           <input type="text" name="name" placeholder="Your name" size="30" id="subject"required>
         </div>
       </div>
-      <div class="row">
+        <div class="row">
         <div class="col-12 message">
-          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+          <textarea name="message" placeholder="Your message" rows="5" cols="1" id="message"></textarea>
         </div>
         <div class="col-12">
           <div class="hero-btns contact-btn">
             <!-- Send Message Btn -->
+            <input type="submit" value="Send">
             <a href="#">Send Message</a>
           </div>
         </div>
+       <input type="hidden" name="_subject" value="Website contact" />
+       <input type="text" name="_gotcha" style="display:none" />
       </div>
      </form>
     </div>
