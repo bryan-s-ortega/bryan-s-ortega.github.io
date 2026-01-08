@@ -733,3 +733,46 @@ footer h6 {
   }
   }
 }
+
+/*-----------------------------------------------------------
+  13. Experience & New Styles
+-------------------------------------------------------------*/
+.experience-box {
+  background-color: #fff;
+  padding: 40px 45px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+  box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+  border-radius: 5px; 
+}
+.experience-box h3 {
+ margin-bottom: 20px;
+}
+.experience-box ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.experience-box li {
+  margin-bottom: 10px;
+  color: #6E757A;
+  line-height: 1.8;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Project Card Tweaks */
+.project-card {
+  min-height: 100%; /* Ensure equal height */
+  display: flex;
+  flex-direction: column;
+}
+.project-details {
+  flex-grow: 1;
+}
